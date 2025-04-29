@@ -35,4 +35,22 @@ return [
         ],
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Travel Deal API Services
+    |--------------------------------------------------------------------------
+    |
+    | Configuration for the travel deal APIs used by the application.
+    |
+    */
+    
+    'skyscanner' => [
+        'key' => env('SKYSCANNER_API_KEY'),
+    ],
+    
+    'amadeus' => [
+        'key' => env('AMADEUS_API_KEY'),
+        'secret' => env('AMADEUS_API_SECRET'),
+    ],
+
 ];
