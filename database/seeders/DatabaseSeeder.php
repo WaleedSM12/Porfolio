@@ -16,9 +16,9 @@ class DatabaseSeeder extends Seeder
         // Create test users
         User::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+        // Run the Deal seeder to create dummy deals
+        $this->call([
+            DealSeeder::class,
         ]);
     }
 }
