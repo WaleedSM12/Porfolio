@@ -46,3 +46,10 @@ AMADEUS_API_SECRET=your_amadeus_api_secret
 ```bash
 php artisan migrate --seed
 ```
+
+## Testing
+
+Run tests with PHPUnit:
+```bash
+php artisan test
+```
